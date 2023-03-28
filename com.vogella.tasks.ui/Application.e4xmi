@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ASCII"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_FKBLgLaiEe25HvYLem-xnA" elementId="com.vogella.tasks.ui.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_IOGnkLaiEe25HvYLem-xnA" elementId="com.vogella.tasks.ui.trimmedwindow.taskmanager" label="Task Manager" x="0" y="0" width="800" height="1024">
+    <children xsi:type="basic:PartSashContainer" xmi:id="_8uhegLakEe25HvYLem-xnA" elementId="com.vogella.tasks.ui.partsashcontainer.main" horizontal="true">
+      <children xsi:type="basic:PartStack" xmi:id="_Cli8QLalEe25HvYLem-xnA" elementId="com.vogella.tasks.ui.partstack.main">
+        <children xsi:type="basic:Part" xmi:id="_qObyALalEe25HvYLem-xnA" elementId="com.vogella.tasks.ui.part.overview" contributionURI="bundleclass://com.vogella.tasks.ui/com.vogella.tasks.ui.parts.TodoOverviewPart" label="Overview"/>
+      </children>
+    </children>
+    <children xsi:type="basic:PartSashContainer" xmi:id="_TQpAkLalEe25HvYLem-xnA" elementId="com.vogella.tasks.ui.partsashcontainer.0">
+      <children xsi:type="basic:PartStack" xmi:id="_UcjaELalEe25HvYLem-xnA" elementId="com.vogella.tasks.ui.partstack.details">
+        <children xsi:type="basic:Part" xmi:id="_zJj58LalEe25HvYLem-xnA" elementId="com.vogella.tasks.ui.part.details" contributionURI="bundleclass://com.vogella.tasks.ui/com.vogella.tasks.ui.parts.TodoDetailsPart" label="Details"/>
+      </children>
+      <children xsi:type="basic:PartStack" xmi:id="_U3SOQLalEe25HvYLem-xnA" elementId="com.vogella.tasks.ui.partstack.playground">
+        <children xsi:type="basic:Part" xmi:id="_zcHpkLalEe25HvYLem-xnA" elementId="com.vogella.tasks.ui.part.playground" contributionURI="bundleclass://com.vogella.tasks.ui/com.vogella.tasks.ui.parts.PlaygroundPart" label="Playground"/>
+      </children>
+    </children>
+    <mainMenu xmi:id="_8fLycMpiEe2pnYkScQ7YcA" elementId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_-s1VwMpiEe2pnYkScQ7YcA" elementId="org.eclipse.ui.file.menu" label="File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_b200oMpsEe2pnYkScQ7YcA" elementId="com.vogella.tasks.ui.handledmenuitem.save" label="Save" command="_ajR_kMpgEe2pnYkScQ7YcA"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_q3looMptEe2pnYkScQ7YcA" elementId="com.vogella.tasks.ui.menuseparator.0"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_tECSEMptEe2pnYkScQ7YcA" elementId="com.vogella.tasks.ui.handledmenuitem.exit" label="Exit" command="_feZ1wMpgEe2pnYkScQ7YcA"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_qTSeMMpsEe2pnYkScQ7YcA" elementId="com.vogella.tasks.ui.menu.edit" label="Edit">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_8fodYMptEe2pnYkScQ7YcA" elementId="com.vogella.tasks.ui.handledmenuitem.createtask" label="Create Task" command="_iyn_kMpgEe2pnYkScQ7YcA"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_DPPI8MpuEe2pnYkScQ7YcA" elementId="com.vogella.tasks.ui.menuseparator.1"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_DqceQMpuEe2pnYkScQ7YcA" elementId="com.vogella.tasks.ui.handledmenuitem.removetask" label="Remove Task" command="_l7em4MpgEe2pnYkScQ7YcA"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_FzP90MpuEe2pnYkScQ7YcA" elementId="com.vogella.tasks.ui.menuseparator.2"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_GLsTAMpuEe2pnYkScQ7YcA" elementId="com.vogella.tasks.ui.handledmenuitem.fortesting" label="For Testing" command="_owly0MpgEe2pnYkScQ7YcA"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_Rti1IMypEe2pnYkScQ7YcA" elementId="com.vogella.tasks.ui.menuseparator.3"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_SFieYMypEe2pnYkScQ7YcA" elementId="com.vogella.tasks.ui.handledmenuitem.theme" label="Theme" command="_IKvCIMypEe2pnYkScQ7YcA"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_wx7esM1jEe2F6tUeKMHHaQ" elementId="com.vogella.tasks.ui.menuseparator.4"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_xLa8wM1jEe2F6tUeKMHHaQ" elementId="com.vogella.tasks.ui.handledmenuitem.entercredentials" label="Enter Credentials" command="_Yx7pYM1jEe2F6tUeKMHHaQ"/>
+      </children>
+    </mainMenu>
+  </children>
+  <handlers xmi:id="_iUjbIMpuEe2pnYkScQ7YcA" elementId="com.vogella.tasks.ui.handler.saveall" contributionURI="bundleclass://com.vogella.tasks.ui/com.vogella.tasks.ui.handlers.SaveAllHandler" command="_ajR_kMpgEe2pnYkScQ7YcA"/>
+  <handlers xmi:id="_uQS0YMpuEe2pnYkScQ7YcA" elementId="com.vogella.tasks.ui.handler.exit" contributionURI="bundleclass://com.vogella.tasks.ui/com.vogella.tasks.ui.handlers.ExitHandler" command="_feZ1wMpgEe2pnYkScQ7YcA"/>
+  <handlers xmi:id="_z5120MpuEe2pnYkScQ7YcA" elementId="com.vogella.tasks.ui.handler.createtask" contributionURI="bundleclass://com.vogella.tasks.ui/com.vogella.tasks.ui.handlers.NewTaskHandler" command="_iyn_kMpgEe2pnYkScQ7YcA"/>
+  <handlers xmi:id="_-WL54MpuEe2pnYkScQ7YcA" elementId="com.vogella.tasks.ui.handler.removetask" contributionURI="bundleclass://com.vogella.tasks.ui/com.vogella.tasks.ui.handlers.RemoveTaskHandler" command="_l7em4MpgEe2pnYkScQ7YcA"/>
+  <handlers xmi:id="_B-s4sMpvEe2pnYkScQ7YcA" elementId="com.vogella.tasks.ui.handler.fortesting" contributionURI="bundleclass://com.vogella.tasks.ui/com.vogella.tasks.ui.handlers.TestHandler" command="_owly0MpgEe2pnYkScQ7YcA"/>
+  <handlers xmi:id="__H03MMyoEe2pnYkScQ7YcA" elementId="com.vogella.tasks.ui.handler.theme" contributionURI="bundleclass://com.vogella.tasks.ui/com.vogella.tasks.ui.handlers.ThemeSwitchHandler" command="_IKvCIMypEe2pnYkScQ7YcA"/>
+  <handlers xmi:id="_Wk80cM1jEe2F6tUeKMHHaQ" elementId="com.vogella.tasks.ui.handler.entercredentials" contributionURI="bundleclass://com.vogella.tasks.ui/com.vogella.tasks.ui.handlers.EnterCredentialsHandler" command="_Yx7pYM1jEe2F6tUeKMHHaQ"/>
+  <commands xmi:id="_ajR_kMpgEe2pnYkScQ7YcA" elementId="org.eclipse.ui.file.saveAll" commandName="Save"/>
+  <commands xmi:id="_feZ1wMpgEe2pnYkScQ7YcA" elementId="org.eclipse.ui.file.exit" commandName="Exit"/>
+  <commands xmi:id="_iyn_kMpgEe2pnYkScQ7YcA" elementId="com.vogella.tasks.ui.command.createtask" commandName="Create task"/>
+  <commands xmi:id="_l7em4MpgEe2pnYkScQ7YcA" elementId="com.vogella.tasks.ui.command.removetask" commandName="Remove task"/>
+  <commands xmi:id="_owly0MpgEe2pnYkScQ7YcA" elementId="com.vogella.tasks.ui.fortesting" commandName="For testing"/>
+  <commands xmi:id="_IKvCIMypEe2pnYkScQ7YcA" elementId="com.vogella.tasks.ui.command.theme" commandName="Theme"/>
+  <commands xmi:id="_Yx7pYM1jEe2F6tUeKMHHaQ" elementId="com.vogella.tasks.ui.command.entercredentials" commandName="Enter Credentials"/>
+  <addons xmi:id="_FKBLgbaiEe25HvYLem-xnA" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_FKBLgraiEe25HvYLem-xnA" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_FKBLg7aiEe25HvYLem-xnA" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_FKBLhLaiEe25HvYLem-xnA" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_FKBLhbaiEe25HvYLem-xnA" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_FKBLhraiEe25HvYLem-xnA" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+  <addons xmi:id="_FKBLh7aiEe25HvYLem-xnA" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+</application:Application>

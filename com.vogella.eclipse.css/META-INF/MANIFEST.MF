@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Css
+Bundle-SymbolicName: com.vogella.eclipse.css;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.e4.ui.css.swt.theme;bundle-version="0.13.200",
+ org.eclipse.jface;bundle-version="3.28.0"
+Bundle-Vendor: VOGELLA
+Automatic-Module-Name: com.vogella.eclipse.css
+Bundle-RequiredExecutionEnvironment: JavaSE-17

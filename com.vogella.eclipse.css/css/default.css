@@ -1,0 +1,54 @@
+Label, Text {
+    font: Verdana 8px;
+    color: black;
+}
+Composite Label {
+    color: black;
+}
+
+Composite Text {
+    background-color: #D3D3D3;
+}
+/* just to demo how to style model elements,
+   change to a different color to see the effect
+*/
+.MTrimBar {
+    background-color: white;
+    color: black;
+    font: Verdana 8px;
+}
+
+Shell {
+    background-color: white;
+}
+
+Button {
+    background: yellow;
+}
+
+Button:checked {
+    background: blue;
+}
+
+
+Button:disabled {
+    background: green;
+}
+
+.MPartStack, CTabFolder {
+    /* Point to the CustomTabFolderRenderer implementation */
+    swt-tab-renderer: url('bundleclass://com.vogella.eclipse.css/com.vogella.eclipse.css.renderer.CustomTabFolderRenderer');
+    background-color: white;
+}
+
+.MPart {
+    background-color: white;
+}
+
+CTabItem {
+    background-color: white;
+}
+
+CTabItem:selected {
+    color: rgb(0, 132, 180);
+}
